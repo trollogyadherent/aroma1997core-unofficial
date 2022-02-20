@@ -1,0 +1,28 @@
+[
+    {
+      "modid": "${modId}",
+      "name": "${modName}",
+      "description": "This is basically a library used by most my other mods. Modified to let the user disable the hammer, for a purely server-side aroma backup possibility. Original url: http://www.minecraftforum.net/topic/1679684-",
+      "version": "${modVersion}",
+      "mcversion": "${minecraftVersion}",
+      "url": "",
+      "updateUrl": "",
+      "authorList": ["Aroma1997", "Schillaa"],
+      "credits": "Code by Aroma1997, Textures by Schillaa. Disabling items: trollogyadherent. Thanks to SinTh0r4s for his ExampleMod.",
+      "logoFile": "assets/aroma1997core/textures/logo.png",
+      "screenshots": [],
+      "dependencies": []
+    },
+     {
+       "modid": "Aroma1997CoreHelper",
+       "name": "Aroma1997Core|Helper",
+       "description": "This is a Helper mod for Aroma1997Core",
+       "mcversion": "1.7.10",
+       "version": "1.0.2.16",
+       "url": "http://www.minecraftforum.net/topic/1679684-",
+       "authors": ["Aroma1997"],
+       "credits": "Code by Aroma1997",
+       "parent": "Aroma1997Core",
+       "logoFile": "assets/aroma1997core/textures/logo.png"
+     }
+]

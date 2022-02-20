@@ -1,0 +1,8 @@
+// Add your dependencies here
+
+dependencies {
+    compile name: "inventory-tweaks",   group: "curse.maven",       version: "${inventoryTweaksVersion}"
+    compile name: "NotEnoughItems",     group: "codechicken",       version: "${NEIVersion}",    classifier: "dev"
+    compile ("codechicken:CodeChickenLib:${codechickenlibVersion}:dev")
+    compile("codechicken:CodeChickenCore:${codechickencoreVersion}:dev")
+}
